@@ -18,8 +18,8 @@ end
 
 gem 'jquery-rails'
 
-group :development do
-  gem 'rspec-rails', '~> 2.6'
+group :test, :development do
+  gem 'rspec-rails', '~> 2.4'
 end
 
 group :test do
